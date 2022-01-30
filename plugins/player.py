@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: AbhiXkhushbu(@Itz_VeNom_xD,@candy_626)",
+        f"Powered By: Lucky(@cute_boy701,@candy_626)",
         (255, 255, 255),
         font=font,
     )
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/006da7a40b81bd6cb2840.png"
+        thumb_name = "https://telegra.ph/file/b921645cc124c9d7acf7c.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/de138de8fd880becb9cf1.jpg", 
+                             photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
                              caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/de138de8fd880becb9cf1.jpg", 
+                             photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
                              caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏸ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**"
     )
 
