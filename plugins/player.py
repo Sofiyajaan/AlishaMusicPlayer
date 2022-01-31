@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Lucky(@cute_boy701,@candy_626)",
+        f"Powered By: Lucky ( @cute_boy701)",
         (255, 255, 255),
         font=font,
     )
@@ -129,24 +129,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️ 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 😎 ...**")
+                        "**💥 ᴀᴛ ꜰɪʀꜱᴛ 🥀 ᴍᴀᴋᴇ ♥️ ᴍ𝐞 ⭐ ᴀᴅᴍɪɴ 😎 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝐈🤞𝐀𝐦 🥀 𝐑𝐞𝐚𝐝𝐲 ♥️ 𝐓𝐨 ⭐ 𝐏𝐥𝐚𝐲 😎 ...**")
+                        message.chat.id, "** 😎 ɪ ᴀᴍ 🥀 ʀᴇᴀᴅʏ ♥️ ᴛᴏ ⭐ ᴘʟᴀʏ 😎 ...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @Itz_VeNom_xD 🥀** ")
+                        f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀꜱꜱɪꜱᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @cute_boy701 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @Itz_VeNom_xD 🥀 ...*")
+            f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @terayaarhoomai 🥀 ...*")
         return
     
     audio = (
@@ -173,7 +173,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="❤️ ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ ❤️",
                             url=f"https://t.me/terayaarhoomai")
 
                 ]
@@ -212,7 +212,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="💜 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💜",
                             url=f"https://t.me/terayaarhoomai")
 
                 ]
@@ -228,7 +228,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
                             url=f"https://t.me/terayaarhoomai")
 
                 ]
@@ -282,7 +282,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
                             url=f"https://t.me/terayaarhoomai")
 
                 ]
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 𝐋𝐮𝐜𝐤𝐲 🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+            caption="**💥 ʟᴜᴄᴋʏ ᴀᴅᴅᴇᴅ ꜱᴏɴɢ ✨❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐋𝐮𝐜𝐤𝐲🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐩 🥀 ...**".format(),
+            caption="**💫 ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄx ɴᴏᴡ ✨\n🔊 ᴘʟᴀʏɪɴɢ 😍 ᴏᴘ 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -336,7 +336,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n▶️ ᴘᴀᴜꜱᴇᴅ ...**"
     )
 
 
@@ -347,7 +347,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏸ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**"
+                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏸ ᴘʟᴀʏɪɴɢ ...**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 𝐋𝐮𝐜𝐤𝐲 💞 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇\n🚫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        await message.reply_text("**💜 ʟᴜᴄᴋʏ ɴᴏᴛʜɪɴɢ 💜\n🚫 ᴘʟᴀʏɪɴɢ💜...**")
     else:
         queues.task_done(chat_id)
         
@@ -381,7 +381,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption=f'**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**'
+                             caption=f'**💥 ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏩ ꜱᴋɪᴘᴘᴇᴅ 🌷 ...**'
    ) 
 
 
@@ -397,7 +397,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+                             caption="**💥 𝐋ᴜᴄᴋʏ 🔈 𝐌ᴜꜱɪᴄ🤞𝐍ᴏᴡ 🥀\n❌ 𝐒ᴛᴏᴘᴘᴇᴅ 🌷 ...**"
     )
 
 
@@ -415,5 +415,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg",
-                              caption="**💥 𝐋𝐮𝐜𝐤𝐲 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**"
+                              caption="**💥 ʟᴜᴄᴋʏ 🔈 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n🔥 𝐑ᴇʟᴏᴀᴅᴇᴅ 🌷 ...**"
     )
