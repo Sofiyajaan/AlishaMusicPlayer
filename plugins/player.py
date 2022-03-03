@@ -1,4 +1,4 @@
-# Aditya Halder // @Itz_VeNom_xD 
+# Aditya Halder // @Azam_sharif_OWNER
 
 import os
 import aiofiles
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀꜱꜱɪꜱᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @cute_boy701 🥀** ")
+                        f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀꜱꜱɪꜱᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @Azam_sharif_OWNER 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @terayaarhoomai 🥀 ...*")
+            f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @azam_sharif_gorup 🥀 ...*")
         return
     
     audio = (
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="❤️ ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ ❤️",
-                            url=f"https://t.me/terayaarhoomai")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💜 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💜",
-                            url=f"https://t.me/terayaarhoomai")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
-                            url=f"https://t.me/terayaarhoomai")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
-                            url=f"https://t.me/terayaarhoomai")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 ʟᴜᴄᴋʏ ᴀᴅᴅᴇᴅ ꜱᴏɴɢ ✨❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+            caption="**💥 azam ᴀᴅᴅᴇᴅ ꜱᴏɴɢ ✨❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💫 ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄx ɴᴏᴡ ✨\n🔊 ᴘʟᴀʏɪɴɢ 😍 ᴏᴘ 🥀 ...**".format(),
+            caption="**💫 Azam ᴍᴜꜱɪᴄx ɴᴏᴡ ✨\n🔊 ᴘʟᴀʏɪɴɢ 😍 ᴏᴘ 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -336,7 +336,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n▶️ ᴘᴀᴜꜱᴇᴅ ...**"
+                             caption="**💥 Azam ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n▶️ ᴘᴀᴜꜱᴇᴅ ...**"
     )
 
 
@@ -347,7 +347,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋𝐮𝐜𝐤𝐲 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏸ ᴘʟᴀʏɪɴɢ ...**"
+                             caption="**💥 Azam ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏸ ᴘʟᴀʏɪɴɢ ...**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💜 ʟᴜᴄᴋʏ ɴᴏᴛʜɪɴɢ 💜\n🚫 ᴘʟᴀʏɪɴɢ💜...**")
+        await message.reply_text("**💜 Azam ɴᴏᴛʜɪɴɢ 💜\n🚫 ᴘʟᴀʏɪɴɢ💜...**")
     else:
         queues.task_done(chat_id)
         
@@ -381,7 +381,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption=f'**💥 ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏩ ꜱᴋɪᴘᴘᴇᴅ 🌷 ...**'
+                             caption=f'**💥 Azam ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n⏩ ꜱᴋɪᴘᴘᴇᴅ 🌷 ...**'
    ) 
 
 
@@ -397,7 +397,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg", 
-                             caption="**💥 𝐋ᴜᴄᴋʏ 🔈 𝐌ᴜꜱɪᴄ🤞𝐍ᴏᴡ 🥀\n❌ 𝐒ᴛᴏᴘᴘᴇᴅ 🌷 ...**"
+                             caption="**💥 Azam  🔈 𝐌ᴜꜱɪᴄ🤞𝐍ᴏᴡ 🥀\n❌ 𝐒ᴛᴏᴘᴘᴇᴅ 🌷 ...**"
     )
 
 
@@ -415,5 +415,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/b921645cc124c9d7acf7c.jpg",
-                              caption="**💥 ʟᴜᴄᴋʏ 🔈 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n🔥 𝐑ᴇʟᴏᴀᴅᴇᴅ 🌷 ...**"
+                              caption="**💥 Azam 🔈 ᴍᴜꜱɪᴄ ɴᴏᴡ 🥀\n🔥 𝐑ᴇʟᴏᴀᴅᴇᴅ 🌷 ...**"
     )
