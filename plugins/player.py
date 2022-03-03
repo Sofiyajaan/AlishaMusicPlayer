@@ -173,7 +173,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="❤️ ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ ❤️",
+                            text="❤️ ꜱᴜᴘᴘᴏʀᴛ  Azam ᴄʜᴀᴛ ❤️",
                             url=f"https://t.me/azam_sharif_gorup")
 
                 ]
@@ -212,7 +212,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💜 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💜",
+                            text="💜 ꜱᴜᴘᴘᴏʀᴛ Azam ᴄʜᴀᴛ 💜",
                             url=f"https://t.me/azam_sharif_gorup")
 
                 ]
@@ -228,7 +228,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
+                            text="💙 ꜱᴜᴘᴘᴏʀᴛ Azam ᴄʜᴀᴛ 💙",
                             url=f"https://t.me/azam_sharif_gorup")
 
                 ]
@@ -282,7 +282,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💙 ꜱᴜᴘᴘᴏʀᴛ ʟᴜᴄᴋʏ ᴄʜᴀᴛ 💙",
+                            text="💙 ꜱᴜᴘᴘᴏʀᴛ Azam ᴄʜᴀᴛ 💙",
                             url=f"https://t.me/azam_sharif_gorup")
 
                 ]
